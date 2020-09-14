@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    line-height: 1;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f5f6fa;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background: #fff;
+     z-index: 1000; /* Acima de todos os elementos */
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 60px;
+}
+
+.itens-menu{
+    text-decoration: none;
+    width: auto;
+    margin-left: 30px;
+    color: #333;
+}
+
+.itens-menu:hover{
+    /* color: #57a4ff; */
+    color: #3b669e;
+}
+
+#right-side-menu-itens{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    width: auto;
+    height: 100%;
+    font-weight: bold;
+}
+
+#login a{
+    color: #3b669e;
+}
+
+#btn-menu{
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    height: 100%;
+    background-color: #3b669e;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-azul{
+    color: #3b669e;
+}
+
+#conta-digital{
+    display: flex;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+#conta-digital div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conta-digital p{
+    text-align: left;
+    width: 40%;
+    font-size: 50px;
+    margin-left: 5%;
+    font-weight: 600;
+}
+
+#conta-digital p span a {
+    font-size: 20px;
+    color: #3b669e;
+}
+
+#conta-digital img{
+    width: 600px;
+}
+
+#cartao-credito{
+    display: flex;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+#cartao-credito div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cartao-credito p{
+    text-align: left;
+    width: 40%;
+    font-size: 50px;
+    margin-left: 5%;
+    font-weight: 600;
+}
+
+#cartao-credito p span a {
+    font-size: 20px;
+    color: #3b669e;
+}
+
+#cartao-credito img{
+    width: 550px;
+    height: 600px;
+    margin: 20px;
+}
+
+#rewards{
+    display: flex;
+    margin-top: 5%;
+    background-color: #3b669e;
+    padding: 10%;
+}
+
+#rewards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rewards p{
+    text-align: left;
+    color: #fff;
+    width: 40%;
+    font-size: 50px;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+#rewards p span{
+    color: #8bbfff;
+}
+
+#rewards p span a{
+    font-size: 20px;
+    color: #8bbfff;
+}
+
+#rewards img{
+    width: 500px;
+    border-radius: 18px;
+}
+
+#contato{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#contato-email{
+    border: 1px solid #8bbfff;
+    border-radius: 4px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 50px;
+    color: #fff;
+    background-color: #3b669e;
+}
+
+#contato-email:hover{
+    color: #3b669e;
+    background-color: transparent;
+}
+
+footer{
+    background-color: #2d2d2d;
+    height: 15vw;
+    padding: 5%;
+    color: #fff;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    font-size: 25px;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a:hover{
+    color: #3b669e;
+}
+
+#redes-sociais-footer{
+    width: 20%;
+}
+
+#redes-sociais-footer a img{
+    width: 35px;
+}
+
+#redes-sociais-footer a{
+    margin-right: 5%;
+    width: 45px;
+}
+
+.itens-footer{
+    margin-top: 5%;
+}
+

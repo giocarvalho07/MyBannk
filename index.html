@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/dollar-symbol.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab2e6f2a82.js" crossorigin="anonymous"></script>
     <title>MyBank</title>
 </head>
 
     <header>
         <nav>
             <ul>
-                <img src="images/iconeMyBank.jpg" alt="" width="100px">
-                <a href="#conta-digital">Conta Digital </a>
-                <a href="#cartao-credito">Cartão de Crédito </a>
-                <a href="#rewards">Rewards </a>
-                <a href="#contato"> Contato </a>
+                <img id="logo" class="itens-menu" src="images/iconeMyBank.jpg" alt="">
+                <a class="itens-menu" href="#conta-digital">Conta Digital </a>
+                <a class="itens-menu" href="#cartao-credito">Cartão de Crédito </a>
+                <a class="itens-menu" href="#rewards">Rewards </a>
+                <a class="itens-menu" href="#contato"> Contato </a>
             </ul>
 
-            <div id="">
-                <div id="">
-                    <a href="">login</a>
+            <div id="right-side-menu-itens">
+                <div id="login">
+                    <a  href="">login</a>
                 </div>
 
-                <a href="">
+                <a id="btn-menu" href="">
                     <span>
                         Quero ser MyBank
                     </span>
@@ -35,7 +40,7 @@
         <section id="conta-digital">
             <div>
                 <p>
-                    <span class="">
+                    <span class="texto-azul">
                         Conta do MyBank
                     </span>
 
@@ -47,23 +52,24 @@
                     <br>
 
                     <span>
-                        <a href="">
+                        <a class="texto-azul" href="">
                             Segura e descomplicada
                         </a>
                     </span>
 
                 </p>
 
-                <img src="images/mulher-cofrinho.jpg" alt="Mulher utilizando um notebook" width="150px">
+                <img src="images/mulher-cofrinho.jpg" alt="Mulher utilizando um notebook" >
 
             </div>
         </section>
 
-        <section id="rewards">
+        <section id="cartao-credito">
             <div>
                 <p>
-                    <span class="" >
-                        Cartão de Crédito
+                    <span class="texto-azul" >
+                        Cartão de Crédito 
+                        </a>
                     </span>
 
                     Pode chamar ele de seu amigo.
@@ -80,20 +86,21 @@
 
                 </p>
 
-                <img src="images/cartao-credito.jpg" alt="imagem de um notebook e um cartão de crédito" width="150px">
+                <img src="images/cartao-credito.jpg" alt="imagem de um notebook e um cartão de crédito">
 
             </div>
         </section>
 
-        <section id="cartao-credito">
+        <section  id="rewards" >
             <div>
                 <p>
-                    <span class="" >
+                    <span >
                         Rewards
                     </span>
 
+                    <br>
                     
-                    Um programa de ponstos, justo 
+                    Um programa de pontos, justo 
                     e facil de usar.
 
                     <br>
@@ -112,7 +119,7 @@
         </section>
 
         <section id="contato">
-            <a href="mailto:giovannidecarvalho@gmail.com" id="">
+            <a href="mailto:giovannidecarvalho@gmail.com" id="contato-email">
                 Contato
             </a>
         </section>
@@ -121,7 +128,7 @@
     </div>
 
     <footer>
-        <div id=""  class="">
+        <div id="endereco-footer"  class="itens-footer">
             <h1>
                 Endereço
             </h1>
@@ -130,7 +137,7 @@
             </a>
         </div>
 
-        <div id=""  class="">
+        <div id="contato-footer"  class="itens-footer">
             <h1>
                 Telefone
             </h1>
@@ -139,14 +146,23 @@
             </p>
         </div>
 
-        <div id=""  class="">
+        <div id="redes-sociais-footer"  class="itens-footer">
             <h1>
                 Redes Sociais
             </h1>
 
             <a href="">
-                <img src="" alt="">
+                <i class="fab fa-linkedin"></i>
             </a>
+
+            <a href="">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+
+            <a href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+
         </div>
 
 
